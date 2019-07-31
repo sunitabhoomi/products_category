@@ -1,0 +1,14 @@
+{
+  "name": "products_category",
+  "version": "1.0.0",
+  "description": "Delete associated products in products table when an admin deletes one category",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sunita",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
