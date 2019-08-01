@@ -12,8 +12,7 @@ router.post('/addCategory', categoryService.addCategory);
 router.get('/getAllCategory', categoryService.getAllCategory);
 router.get('/getAllCategoryByCategoryId/:id', categoryService.getAllCategoryByCategoryId);
 router.put('/updateCategoryByCategoryId', categoryService.updateCategoryByCategoryId);
-
-/** Assigned task of the main API it Delete associated products in products table when an admin deletes one category  */
+/** delete one category related products are deleted*/
 router.delete('/deleteCategoryByCategoryId', categoryService.deleteCategoryByCategoryId);
 
 
