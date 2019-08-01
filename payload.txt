@@ -9,7 +9,9 @@ Procedure to run program and API payload
 7)	Open that folder in any tool(visual studio code, WebStrom etc)
 8)	Open terminal.
 9)	Types in the terminal npm install to get all dependencies.
-10)	Types in the terminal node app.js to run project or nodemon in the terminal, if the nodemon is not installed type npm install nodemon –save
+10) create database using mysql workbench. database present in db.sql file.
+11) Check connection has been established or not.
+12)	Types in the terminal node app.js to run project or nodemon in the terminal, if the nodemon is not installed type npm install nodemon –save
 
 •	First created project by using npm init,  it will ask few project related questions such as project name, version, description, author etc.
 •	After that created app.js file in this folder imported express and body-parser module and port to listen the server request etc.
